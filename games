@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mythgard Studios | Games</title>
+  <link href="Stylesheet_1.css" rel="stylesheet">
+  <link href="Stylesheet_2.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="navbar-inner">
+
+      <div class="navbar-left">
+        <div class="navbar-logo">
+          <a href='/'>
+            <img src="mythgard_studios_logo.png" alt="Mythgard Studios Logo">
+          </a>
+        </div>
+
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+          <img src="navicon.png" alt="Menu Icon">
+        </label>
+
+
+        <nav class="navbar-links">
+          <a href='/games'>Games</a>
+          <a href='/developers'>Developers</a>
+          <a href='/contact'>Contact</a>
+        </nav>
+      </div>
+
+
+      <div class="navbar-right">
+        <div class="tooltip-container">
+          <a href="https://discord.gg/CVDYRVY9rH" class="btn-cta" aria-label="Join us on Discord">
+            <img src="discord.svg" alt="Discord" class="icon-discord">
+          </a>
+          <span class="tooltip-text">Join our Discord</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="games-list">
+      <h1>Our Games</h1>
+
+      <div class="game-card show">
+        <div class="game-title">
+          <h2>Valerune</h2>
+          <div class="engine-tag">
+            <img src="godotengine.svg" alt="Godot Engine Logo" class="icon-godot">
+            <span class="tooltip-text">Designed in Godot 4.4</span>
+          </div>
+        </div>
+        <img src="valerune_logo.png" alt="Valerune Logo" class="valerune-logo">
+        <p>
+          A Norse-inspired life sim with village building, mythological realms, survival, and real-time combat. Guide
+          your Viking legacy through the ages and earn favor with the gods.
+        </p>
+        <a href='/valerune'>Learn More</a>
+      </div>
+
+      <div class="game-card show">
+        <div class="game-title">
+          <h2>Realms of Midgard</h2>
+          <div class="engine-tag tooltip-container">
+            <img src="godotengine.svg" alt="Godot Engine Logo" class="icon-godot">
+            <span class="tooltip-text">Designed in Godot 4.4</span>
+          </div>
+        </div>
+        <img src="rom_logo.png" alt="Realms of Midgard Logo" class="valerune-logo">
+        <p>
+          A multiplayer Viking adventure RPG rooted in Norse mythology. Explore vast lands, battle ancient foes, and
+          forge alliances across the realms in this action-packed journey.
+        </p>
+        <a href='/rom'>Learn More</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mythgard Studios LLC. All rights reserved.</p>
+    <p>
+      <a href="mailto:contact@mythgardstudios.com">contact@mythgardstudios.com</a>
+    </p>
+  </footer>
+</body>
+
+</html>
