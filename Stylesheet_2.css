@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+@media (max-width: 767px) {
+  .navbar-inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(44, 47, 51, 0.95);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 0 0 12px 12px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-toggle:checked~.navbar-links {
+    display: flex;
+  }
+
+  .navbar-logo {
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 24px;
+    line-height: 1.8;
+  }
+
+  .navbar-links {
+    font-size: 1.65rem;
+    gap: 36px;
+  }
+
+  .game-card h2 {
+    font-size: 2.25rem;
+  }
+
+  .game-card p {
+    font-size: 1.5rem;
+  }
+
+  .cta {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+  }
+
+  .tooltip-text {
+    font-size: 18px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 24px;
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 21px;
+  }
+
+  .engine-tag {
+    padding: 12px;
+    font-size: 1.2rem;
+  }
+
+  .navbar-logo img {
+    height: 110px;
+  }
+
+  .btn-cta {
+    height: 72px;
+    width: 72px;
+  }
+
+  .icon-godot {
+    height: 25px;
+    width: 25px;
+  }
+
+  .menu-icon img {
+    height: 45px;
+    width: 45px;
+  }
+}
